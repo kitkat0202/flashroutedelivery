@@ -8,13 +8,14 @@
 
     <title>Flash Route Delivery | Reliable Delivery Services in NYC</title>
 
-    <meta name="description" content="Flash Route Delivery provides fast and reliable delivery services in NYC. Whether you're a warehouse or a DSP driver, contact us for efficient delivery solutions.">
+    <meta name="description" content="Flash Route Delivery offers fast, reliable delivery services in NYC, catering to businesses, warehouses, and DSP drivers. Contact us now for efficient, commission-based delivery solutions.">
     <meta name="keywords" content="delivery service provider, NYC delivery, route delivery, fast delivery, drivers needed, commission based delivery, warehouse delivery">
     <meta name="author" content="Flash Route Delivery">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph Tags for Social Media (Facebook, Twitter, LinkedIn, etc.) -->
     <meta property="og:title" content="Flash Route Delivery | Reliable Delivery Services in NYC">
+    <meta property="og:locale" content="en_US">
     <meta property="og:description" content="Flash Route Delivery provides fast and reliable delivery services in NYC. Get in touch with us for more information.">
     <meta property="og:image" content="./meta-logo.png">
     <meta property="og:url" content="https://flashroutedelivery.com">
@@ -26,6 +27,8 @@
     <meta name="twitter:title" content="Flash Route Delivery | Reliable Delivery Services in NYC">
     <meta name="twitter:description" content="Fast, reliable, and efficient delivery services in NYC. Contact us to learn more about our commission-based driver opportunities.">
     <meta name="twitter:image" content="./meta-logo.png">
+    <meta name="twitter:site" content="@flashroutedelivery">  <!-- TODO -->
+
 
     <!-- Canonical Link (ensures proper indexing) -->
     <link rel="canonical" href="https://flashroutedelivery.com">
@@ -38,8 +41,6 @@
       gtag('js', new Date());
       gtag('config', 'YOUR_TRACKING_ID');
     </script> -->
-
-
 
     <!-- ===============================================-->
     <!--    Favicons-->
@@ -56,42 +57,74 @@
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
-    <link href="assets/css/theme.css" rel="stylesheet" />
-
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"> -->
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <link href="assets/css/stylefix.css" rel="stylesheet" />
+    <!-- ===============================================-->
+    <!--    Schema -->
+    <!-- ===============================================-->
+    <!-- TODO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "DeliveryService",
+        "name": "Flash Route Delivery",
+        "url": "https://flashroutedelivery.com",
+        "logo": "https://flashroutedelivery.com/meta-logo.png",
+        "image": "https://flashroutedelivery.com/meta-logo.png",
+        "description": "Reliable and efficient delivery services in NYC, offering fast and flexible delivery solutions. Contact us for professional, commission-based delivery options.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "flashroutedelivery@gmail.com",
+          "contactType": "Customer Service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        },
+        "sameAs": [
+          "https://www.facebook.com/flashroutedelivery",
+          "https://www.linkedin.com/company/flashroutedelivery"
+        ]
+      }
+    </script>
   </head>
-
-
   <body>
-
     <!-- ===============================================-->
     <!--    Main Content-->
     <!-- ===============================================-->
-    <main class="main" id="top">
+    <header>
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="assets/img/gallery/official-logo.png" height="70" alt="logo" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
-          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="assets/img/gallery/official-logo.png" height="70" alt="Flash Route Delivery Official Logo"/>
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
-              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="#">Home</a></li>
               <li class="nav-item px-2"><a class="nav-link" href="#aboutus">About Us</a></li>
               <li class="nav-item px-2"><a class="nav-link" href="#career">Career</a></li>
             </ul>
-            <div class="dropdown d-none d-lg-block">
-            </div><a class="btn btn-primary order-1 order-lg-0 ms-lg-3" href="#contact">Contact Us</a>
+            <div class="dropdown d-none d-lg-block"></div>
+            <a class="btn btn-primary order-1 order-lg-0 ms-lg-3" href="#contact">
+              Contact Us
+            </a>
           </div>
         </div>
       </nav>
+    </header>
+    <main class="main" id="top">
       <section class="py-xxl-10 pb-0" id="home">
-        <div class="bg-holder bg-size" style="background-image:url(assets/img/gallery/hero-header-bg.png);background-position:top center;background-size:cover;">
-        </div>
-
+        <div class="bg-holder bg-size" style="background-image:url(assets/img/gallery/hero-header-bg.png);background-position:top center;background-size:cover;"></div>
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end"><img class="pt-7 pt-md-0 w-100" src="assets/img/illustrations/hero.png" alt="hero-header" /></div>
+            <div class="col-md-5 col-xl-6 col-xxl-7 order-0 order-md-1 text-end">
+              <img class="pt-7 pt-md-0 w-100" src="assets/img/illustrations/hero.png" alt="Flash Route Delivery courier handing packages to a customer in a swift and professional manner" />
+            </div>
             <div class="col-md-75 col-xl-6 col-xxl-5 text-md-start text-center pt-8 pb-0 py-md-8">
-              <h1 class="fw-normal fs-4 fs-xxl-7">Swift Solutions, Trusted Service,</h1>
-              <h1 class="fw-bolder fs-5 fs-xxl-7 mb-2">Every Mile of the Journey.</h1>
-              <p class="fs-1 mb-5">We deliver  products safely to <br />homes in a reasonable time.</p>
+              <h1 class="fw-normal fs-4 fs-xxl-7 mb-2">Swift Solutions, Trusted Service,<br/><span class="fw-bolder fs-5">Every Mile of the Journey.</span></h1>
+              <p class="fs-1 mb-5 sub-title">We safely deliver your packages to homes with swift and reliable service in a timely manner.</p>
             </div>
           </div>
         </div>
@@ -101,121 +134,180 @@
       <!-- ============================================-->
       <!-- START - About Us ===========================-->
       <section class="py-7" id="aboutus" container-xl="container-xl">
-
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-md-8 col-lg-5 text-center mb-3">
-              <h5 class="text-danger">ABOUT US</h5>
+              <p class="preheadline text-danger">ABOUT US</p>
               <h2>Who We Are for You</h2>
             </div>
           </div>
           <div class="row h-100 justify-content-center">
+            
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
-              <div class="card h-100 px-lg-5 card-span">
+              <div class="card h-100 px-lg-3 card-span">
                 <div class="card-body d-flex flex-column justify-content-around">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-1.svg" alt="Our Mission" />
-                    <h5 class="my-4">Our Mission</h5>
+                  <div class="text-center pt-5">
+                    <img class="img-fluid" src="assets/img/icons/services-1.svg" alt="Icon representing reliable delivery solutions for NYC warehouses" loading="lazy"/>
+                    <h3 class="my-4">Our Mission</h3>
                   </div>
-                  <p>To provide reliable and timely delivery solutions, helping warehouses streamline operations with our trusted drivers.</p>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Dependable Drivers</li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Timely Deliveries</li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Quality Service</li>
+                  <p>We provide reliable and efficient last-mile delivery services throughout New York City, helping local warehouses streamline operations and ensure products reach customers quickly and safely.</p>
+                  <ul class="orange-bull">
+                    <li class="mb-2">Experienced and dependable drivers familiar with NYC traffic</li>
+                    <li class="mb-2">Timely deliveries, ensuring on-time arrivals in NYC's busy environment</li>
+                    <li class="mb-2">Quality service with customer satisfaction as our top priority in NYC</li>
                   </ul>
                 </div>
               </div>
             </div>
-          
-            <!-- Why Choose Us -->
+
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
-              <div class="card h-100 px-lg-5 card-span">
+              <div class="card h-100 px-lg-3 card-span">
                 <div class="card-body d-flex flex-column justify-content-around">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-2.svg" alt="Why Choose Us" />
-                    <h5 class="my-4">Why Choose Us</h5>
+                  <div class="text-center pt-5">
+                    <img class="img-fluid" src="assets/img/icons/services-2.svg" alt="Our Commitment" loading="lazy"/>
+                    <h3 class="my-4">Our Commitment</h3>
                   </div>
-                  <p>We partner with warehouses to optimize last-mile delivery, ensuring your products reach customers quickly and safely.</p>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Experienced Team</li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Customized Solutions</li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Client Satisfaction</li>
+                  <p>We are committed to providing dependable delivery services across NYC, ensuring every package is handled with care and delivered efficiently.</p>
+                  <ul class="orange-bull">
+                    <li class="mb-2">Safe handling of packages, with attention to New York City’s unique delivery challenges</li>
+                    <li class="mb-2">On-time deliveries guaranteed, even in the busiest parts of NYC</li>
+                    <li class="mb-2">Professional drivers who are experts in navigating NYC’s streets</li>
                   </ul>
                 </div>
               </div>
             </div>
-          
-            <!-- Our Commitment -->
+
             <div class="col-md-4 pt-4 px-md-2 px-lg-3">
-              <div class="card h-100 px-lg-5 card-span">
+              <div class="card h-100 px-lg-3 card-span">
                 <div class="card-body d-flex flex-column justify-content-around">
-                  <div class="text-center pt-5"><img class="img-fluid" src="assets/img/icons/services-3.svg" alt="Our Commitment" />
-                    <h5 class="my-4">Our Commitment</h5>
+                  <div class="text-center pt-5">
+                    <img class="img-fluid" src="assets/img/icons/services-3.svg" alt="Why Choose Us" loading="lazy"/>
+                    <h3 class="my-4">Join Our Team</h3>
                   </div>
-                  <p>We are dedicated to providing dependable delivery services, ensuring every package is handled with care and efficiency.</p>
-                  <ul class="list-unstyled">
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Safe Handling</li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>On-Time Delivery</li>
-                    <li class="mb-2"><span class="me-2"><i class="fas fa-circle text-primary" style="font-size:.5rem"></i></span>Professional Drivers</li>
+                  <p>Looking for a flexible, rewarding career in NYC's fast-paced delivery industry? At FlashRoute, we offer competitive pay, the flexibility to choose your own schedule, and opportunities to grow within our company.</p>
+                  <ul class="orange-bull">
+                    <li class="mb-2">Competitive pay with performance-based incentives</li>
+                    <li class="mb-2">Flexible hours to fit your lifestyle in NYC</li>
+                    <li class="mb-2">Opportunities for career advancement and growth</li>
+                    <li class="mb-2">Be part of a dynamic and supportive team in NYC</li>
                   </ul>
+                  <!-- <p class="text-center mt-4"><a href="join-our-team.html" class="btn btn-primary">Apply Now</a></p> -->
                 </div>
               </div>
             </div>
           </div>
-          
-
-
         </div>
-
       </section>
       <!-- END - About Us ============================-->
       <!-- ===========================================-->
 
 
-
-
       <!-- ============================================-->
-      <!-- <section> begin ============================-->
+      <!-- START -Stats ============================-->
       <section class="pt-7 pb-0">
-
         <div class="container">
           <div class="row">
-            <!-- <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/awards.png" height="60" alt="..." />
-                <h1 class="text-primary mt-4">3+</h1>
-                <h5 class="text-800">Awards Won</h5>
-              </div>
-            </div> -->
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/states.png" height="60" alt="..." />
+              <div class="text-center"><img src="assets/img/icons/states.png" height="60" alt="Folded map icon" loading="lazy"/>
                 <h1 class="text-primary mt-4">5+</h1>
-                <h5 class="text-800">Regions Covered</h5>
+                <p class="statistics text-800">Regions Covered</p>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/clients.png" height="60" alt="..." />
+              <div class="text-center"><img src="assets/img/icons/clients.png" height="60" alt="Satisfied client icon" loading="lazy"/>
                 <h1 class="text-primary mt-4">50K+</h1>
-                <h5 class="text-800">Satisfied Clients</h5>
+                <p class="statistics text-800">Satisfied Clients</p>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/goods.png" height="60" alt="..." />
+              <div class="text-center"><img src="assets/img/icons/goods.png" height="60" alt="Delivery truck icon" loading="lazy"/>
                 <h1 class="text-primary mt-4">50K+</h1>
-                <h5 class="text-800">Parcels Delivered</h5>
+                <p class="statistics text-800">Parcels Delivered</p>
               </div>
             </div>
             <div class="col-6 col-lg mb-5">
-              <div class="text-center"><img src="assets/img/icons/business.png" height="60" alt="..." />
+              <div class="text-center"><img src="assets/img/icons/business.png" height="60" alt="Package icon" loading="lazy"/>
                 <h1 class="text-primary mt-4">95%</h1>
-                <h5 class="text-800">Delivery KPI</h5>
+                <p class="statistics text-800">Delivery KPI</p>
               </div>
             </div>            
           </div>
         </div>
-        <!-- end of .container-->
-
       </section>
-      <!-- <section> close ============================-->
+      <!-- END -Stats ============================-->
       <!-- ============================================-->
 
+
+      <!-- ============================================-->
+      <!-- START - Testimonials =======================-->
+      <section id="testimonials" class="py-7">
+        <div class="container-fluid">
+          <div class="row flex-center">
+            <div class="bg-holder bg-size" style="background-image:url(assets/img/gallery/quote.png);background-position:top;background-size:auto;margin-left:-270px;margin-top:-45px;"></div>
+            <div class="col-md-8 col-lg-5 text-center">
+              <h5 class="text-danger">TESTIMONIAL</h5>
+              <h2>Our Awesome Clients</h2>
+            </div>
+          </div>
+
+          <div class="row py-7 ">
+            <div class="col-lg-4 mb-3 mb-md-0">
+              <div class="card h-100 card-span p-3">
+                <div class="card-body">
+                  <h5 class="mb-0 text-primary">Reliable and efficient delivery service!</h5>
+                  <p class="card-text pt-3">We partnered with FlashRoute Delivery to handle our logistics for a major retail event, and they exceeded our expectations. The parcels were delivered on time, and the customer service was exceptional. We will definitely use them again for our future delivery needs.</p>
+                  <div class="d-xl-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center mb-3"><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i></div>
+                    <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/icons/avatar.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h6 class="mb-0 fs--1 text-1000 fw-medium">Sarah Jenkins</h6>
+                        <p class="fs--2 fw-normal mb-0">Operations Manager, Retail Solutions</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 mb-md-0">
+              <div class="card h-100 card-span p-3">
+                <div class="card-body">
+                  <h5 class="mb-0 text-primary">Fast, professional, and reliable!</h5>
+                  <p class="card-text pt-3">As a growing e-commerce business, we rely heavily on efficient delivery services. FlashRoute Delivery consistently delivers our packages on time and with a high level of professionalism. They’ve become an integral part of our logistics chain.</p>
+                  <div class="d-xl-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center mb-3"><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i></div>
+                    <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/icons/avatar.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h6 class="mb-0 fs--1 text-1000 fw-medium">Michael Harrison</h6>
+                        <p class="fs--2 fw-normal mb-0">Founder & CEO, ShopQuick</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-3 mb-md-0">
+              <div class="card h-100 card-span p-3">
+                <div class="card-body">
+                  <h5 class="mb-0 text-primary">Exceeded our expectations!</h5>
+                  <p class="card-text pt-3">FlashRoute Delivery has been a game changer for our company. The deliveries are always on time, and the drivers are courteous and professional. We’ve seen a boost in customer satisfaction since using their services.</p>
+                  <div class="d-xl-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center mb-3"><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i><i class="fas fa-star text-primary me-1"></i></div>
+                    <div class="d-flex align-items-center"><img class="img-fluid" src="assets/img/icons/avatar.png" alt="" />
+                      <div class="flex-1 ms-3">
+                        <h6 class="mb-0 fs--1 text-1000 fw-medium">Emily Clarkson</h6>
+                        <p class="fs--2 fw-normal mb-0">Logistics Director, Swift Industries</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END - Testimonials ========================-->
+      <!-- ============================================-->
+        
 
 
 
@@ -224,17 +316,18 @@
       <section>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <h2 class="fw-bold">Why Choose Us?</h2>
-              <p>FlashRoute Delivery is your trusted partner for all your delivery needs. Here's why our clients prefer working with us:</p>
+            <div class="col-lg-7">
+              <h2 class="fw-bold">Why Choose FlashRoute Delivery for Your NYC Shipping Needs?</h2>
+              <p>FlashRoute Delivery is your trusted partner for all your delivery needs in New York City. Here's why businesses and residents prefer working with us:</p>
               <ul>
-                <li style="font-size: 18px; line-height: 26px; margin-bottom: 10px;"><strong class="text-danger">Reliable & Punctual:</strong> We guarantee fast and timely deliveries, so your goods reach their destination on time, every time.</li>
-                <li style="font-size: 18px; line-height: 26px; margin-bottom: 10px;"><strong class="text-danger">Experienced Drivers:</strong> Our drivers are trained, professional, and ready to handle any type of delivery, ensuring your items are delivered safely and securely.</li>
-                <li style="font-size: 18px; line-height: 26px; margin-bottom: 10px;"><strong class="text-danger">Customizable Solutions:</strong> Whether you're a warehouse looking to streamline deliveries or a driver looking for flexibility, we have solutions tailored to your needs.</li>
+                <li style="font-size: 18px; line-height: 26px; margin-bottom: 10px;"><strong class="text-danger">Reliable & Punctual Delivery Service:</strong> We guarantee fast and timely deliveries, ensuring your goods reach their destination safely and on time, every time, across New York City.</li>
+                <li style="font-size: 18px; line-height: 26px; margin-bottom: 10px;"><strong class="text-danger">Experienced and Professional NYC Drivers:</strong> Our drivers are trained, professional, and familiar with NYC’s unique traffic patterns, ensuring your items are delivered securely and on schedule.</li>
+                <li style="font-size: 18px; line-height: 26px; margin-bottom: 10px;"><strong class="text-danger">Customizable Solutions for NYC Warehouses:</strong> Whether you're a local warehouse, restaurant, or e-commerce business, we offer tailored services to meet your unique delivery needs in NYC.</li>
               </ul>
+              <!-- <p><a href="/contact" class="btn btn-primary">Get in Touch with FlashRoute Today!</a></p> -->
             </div>
-            <div class="col-lg-6 d-flex flex-column justify-content-end align-items-center">
-              <img src="assets/img/illustrations/why-choose-us.png" alt="Why Choose Us Illustration" width="450" style="max-width: 100%;"/>
+            <div class="col-lg-5 d-flex flex-column justify-content-end align-items-center">
+              <img src="assets/img/illustrations/why-choose-us.png" alt="Flash Route Delivery Clients discussing why they would choose us" width="450" style="max-width: 100%;" loading="lazy"/>
             </div>
           </div>
         </div>
@@ -250,55 +343,57 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <img src="assets/img/illustrations/callback.png" alt="Callback Illustration" width="230"/>
-                <h5 class="text-danger">REQUEST A CALLBACK</h5>
-                <h2 class="fw-bold text-white">Get the Right Drivers for Your Routes!</h2>
-                <p class="text-300">If you're a warehouse with delivery routes and need reliable drivers, we're here to help! We provide timely and efficient delivery services to handle your logistics needs. Contact us and we’ll get back to you as soon as possible.</p>
-              </div>
+                <img src="assets/img/illustrations/callback.png" alt="Warehouse manager requesting a callback for reliable delivery drivers" width="230" loading="lazy"/>
+                <p class="preheadline text-danger">REQUEST A CALLBACK</p>
+                <h2 class="fw-bold text-white">Get Reliable Drivers for Your Delivery Routes in NYC</h2>
+                <p class="text-300">Are you a warehouse in need of reliable, timely, and efficient delivery drivers in New York City? FlashRoute Delivery is here to help streamline your operations. Contact us today for dependable last-mile delivery services, and we'll get back to you as soon as possible with the right solutions for your business.</p>
+              </div>              
               <div class="col-lg-6">
                 <!-- <h5 class="text-primary mb-3">CONTACT REQUEST</h5> -->
-                <form class="row gx-2 gy-2 align-items-center">
+                <form id="warehouse-contact" class="row gx-2 gy-2 align-items-center">
                   <div class="col-12 mb-3">
                     <div class="btn-group d-flex" role="group">
-                      <input type="radio" class="btn-check" name="contactMethod" id="selectEmail" autocomplete="off" checked />
-                      <label class="btn btn-outline-light w-50" for="selectEmail">Email</label>
-        
-                      <input type="radio" class="btn-check" name="contactMethod" id="selectPhone" autocomplete="off" />
-                      <label class="btn btn-outline-light w-50" for="selectPhone">Phone</label>
+                      <div class="btn btn-outline-dark bg-white w-50 text-dark" id="selectEmail">Email</div>
+                      <div class="btn btn-outline-light w-50" id="selectPhone">Phone</div>
                     </div>
                   </div>
 
                   <div class="col-12 mb-3">
-                    <label class="form-label visually-hidden" for="inputName">Name</label>
-                    <input class="form-control input-box form-quriar-control text-light" id="inputName" type="text" placeholder="Warehouse Name" required />
+                    <label class="form-label visually-hidden" for="warehouseName">Warehouse Name</label>
+                    <input class="form-control input-box form-quriar-control text-black bg-white" id="warehouseName" name="name" type="text" placeholder="Warehouse Name" maxlength="100" required />
                   </div>
         
                   <!-- Email Input -->
                   <div class="col-12 mb-3" id="emailInputGroup">
                     <label class="visually-hidden" for="inputEmail">Email Address</label>
-                      <input class="form-control input-box form-quriar-control text-light" id="inputEmail" type="email" placeholder="Enter your email" />
+                    <input class="form-control input-box form-quriar-control text-black bg-white" id="inputEmail" name="email" type="email" placeholder="Enter your email" />
                   </div>
         
                   <!-- Phone Input -->
                   <div class="col-12 mb-3 d-none" id="phoneInputGroup">
                     <label class="visually-hidden" for="inputPhone">Phone Number</label>
-                      <input class="form-control input-box form-quriar-control text-light" id="inputPhone" type="tel" placeholder="Enter your phone number" />
+                      <input class="form-control input-box form-quriar-control text-black bg-white" id="inputPhone" name="phone" type="tel" placeholder="Enter your phone number" />
                   </div>
 
                   <div class="mb-5">
                     <label class="form-label visually-hidden" for="validationTextarea">Message</label>
-                    <textarea class="form-control input-box form-quriar-control text-light" id="validationTextarea" placeholder="Message (Please include details about your delivery routes and requirements)" style="height: 150px" required="required"></textarea>
+                    <textarea class="form-control input-box form-quriar-control text-black bg-white" id="validationTextarea" name="message" placeholder="Message (Please include details about your delivery routes and requirements)" style="height: 150px" required="required"></textarea>
                   </div>
         
                   <div class="d-grid gap-3 col-sm-auto">
-                    <button class="deactivate-submit btn btn-danger" type="submit">Submit</button>
+                    <button class="btn btn-danger" type="submit">Submit</button>
                   </div>
                 </form>
+                <div id="successMessage" style="display:none;">
+                  <h3 class="text-white">Thank you! Your message has been sent successfully.</h3>
+                </div>
+                <div id="failureMessage" style="display:none;">
+                  <h3 class="text-white">Oops, something went wrong. Please try again later or contact us directly<a href="mailto:flashroutedelivery@gmail.com">flashroutedelivery@gmail.com</a>.</h3>
+                </div>
               </div>
             </div>
           </div>
         </section>
-             
       <!-- END - Request A Callback ===================-->
       <!-- ============================================-->
 
@@ -306,53 +401,52 @@
 
       <!-- ============================================-->
       <!-- START - Driver With Us =====================-->
-
-      <section id="career" class="py-5">
+      <section id="career" class="pb-5">
         <div class="container">
           <div class="row align-items-start">
             <!-- Left Section: Career Information -->
             <div class="col-lg-6">
-              <h2 class="fw-bold">Drive with Us</h2>
-              <p>We are hiring reliable and motivated drivers for commission-based delivery roles. Start early, finish early, and enjoy the freedom of flexible scheduling with competitive rates for your hard work.</p>
-              <p>As a driver with us, you’ll need your own reliable car to complete deliveries. Whether you drive a sedan, SUV, or van, having your own vehicle allows you to get started quickly and enjoy the flexibility of your schedule. No company vehicle will be provided.</p>
+              <h2 class="fw-bold">Drive for FlashRoute Delivery</h2>
+              <p>We’re looking for reliable, motivated drivers to join our team in New York City for commission-based delivery roles. Enjoy the freedom of flexible scheduling, competitive rates, and the ability to start and finish your day early!</p>
+              <p>As a delivery driver with FlashRoute, you’ll need your own reliable vehicle (sedan, SUV, or van) to get started quickly. Please note, no company vehicle will be provided—your own car allows you the flexibility to work when and where you choose.</p>
               <ul class="list-unstyled">
-                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Commission-based earnings</li>
+                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Earn commission-based pay</li>
                 <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Competitive rates per delivery</li>
-                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Early start, early finish</li>
-                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Weekly payout</li>
-                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>No micro-manager</li>
+                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Start early, finish early, flexible hours</li>
+                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>Weekly payouts for your hard work</li>
+                <li class="mb-2"><span class="me-2"><i class="fas fa-check-circle text-primary"></i></span>No micromanagement—work independently</li>
               </ul>
-            </div>
+            </div>            
       
             <!-- Right Section: Application Form -->
             <div class="col-lg-6">
-              <h5 class="text-primary mb-3">Apply Now</h5>
+              <p class="preheadline text-primary mb-3">Apply Now</p>
               <form id="driver-app" class="row gx-2 gy-2 align-items-center">
                 <div class="col-12 mb-3">
                   <div class="input-group-icon">
                     <label class="visually-hidden" for="firstName">First Name</label>
-                    <input class="form-control input-box form-quriar-control" id="firstName" type="text" placeholder="First Name" required />
+                    <input class="form-control input-box form-quriar-control  text-black bg-white" id="firstName" type="text" placeholder="First Name" required />
                   </div>
                 </div>
                 
                 <div class="col-12 mb-3">
                   <div class="input-group-icon">
                     <label class="visually-hidden" for="lastName">Last Name</label>
-                    <input class="form-control input-box form-quriar-control" id="lastName" type="text" placeholder="Last Name" required />
+                    <input class="form-control input-box form-quriar-control  text-black bg-white" id="lastName" type="text" placeholder="Last Name" required />
                   </div>
                 </div>
                 
                 <div class="col-12 mb-3">
                   <div class="input-group-icon">
                     <label class="visually-hidden" for="email">Email</label>
-                    <input class="form-control input-box form-quriar-control" id="email" type="email" placeholder="Email" required />
+                    <input class="form-control input-box form-quriar-control  text-black bg-white" id="email" type="email" placeholder="Email" required />
                   </div>
                 </div>
                 
                 <div class="col-12 mb-3">
                   <div class="input-group-icon">
                     <label class="visually-hidden" for="phoneNumber">Phone Number</label>
-                    <input class="form-control input-box form-quriar-control" id="phoneNumber" type="tel" placeholder="Phone Number" required />
+                    <input class="form-control input-box form-quriar-control  text-black bg-white" id="phoneNumber" type="tel" placeholder="Phone Number" required />
                   </div>
                 </div>
 
@@ -401,30 +495,74 @@
           </div>
         </div>
       </section> 
-      
       <!-- END - Driver With Us =======================-->
       <!-- ============================================-->
 
 
+      <!-- =========================================== -->
+      <!-- START - FAQ =============================== -->
+      <section class="pt-7 pb-0" id="faq" class="bg-transparent">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center mb-3">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <h3 class="text-dark">What services do you offer?</h3>
+              <p><span class="text-danger">&gt; </span> We offer commission-based last-mile delivery services for warehouses and businesses, ensuring timely and reliable deliveries to customers.</p>
+      
+              <h3 class="text-dark">How can I become a driver?</h3>
+              <p><span class="text-danger">&gt; </span> If you're interested in joining our team, fill out the driver application form on our website. We’re looking for motivated drivers with their own reliable vehicle. We offer flexible schedules, commission-based earnings, and competitive rates per delivery.</p>
+      
+              <h3 class="text-dark">What type of vehicles do I need to drive for FlashRoute Delivery?</h3>
+              <p><span class="text-danger">&gt; </span> Drivers need to have their own vehicle, such as a sedan, SUV, or van. No company vehicles are provided.</p>
+      
+              <h3 class="text-dark">How do you ensure timely deliveries?</h3>
+              <p><span class="text-danger">&gt; </span> Our drivers are experienced and follow optimized routes to ensure timely deliveries. We prioritize customer satisfaction and strive for on-time performance with every delivery.</p>
+      
+              <h3 class="text-dark">How are drivers paid?</h3>
+              <p><span class="text-danger">&gt; </span> Drivers are paid on a commission-based structure. We offer competitive rates per delivery, with weekly payouts for all completed work.</p>
+      
+              <h3 class="text-dark">How many deliveries am I expected to complete daily?</h3>
+              <p><span class="text-danger">&gt; </span> Drivers are expected to complete a set amount of small parcels each day, typically around 60-130 parcels. You will start with around 60 parcels, and if you feel you can handle more, the number will increase. Your day is done only after you finish all of your deliveries.</p>
+
+              <h3 class="text-dark">Do I need to provide my own equipment?</h3>
+              <p><span class="text-danger">&gt; </span> Yes, drivers are required to provide their own equipment, including a reliable vehicle for deliveries. We do not provide any equipment for drivers.</p>
+
+              <h3 class="text-dark">Will I receive support during my deliveries?</h3>
+              <p><span class="text-danger">&gt; </span> Yes, while we do not provide equipment, a dispatcher will be assigned to your team. The dispatcher will monitor your progress to ensure you are completing deliveries in a timely manner and taking the correct proof of delivery photos. They will also be available to assist with any questions or concerns you may have during your route.</p>
+
+              <h3 class="text-dark">How flexible is the delivery schedule?</h3>
+              <p><span class="text-danger">&gt; </span> The schedule is flexible, but drivers are expected to complete all deliveries assigned for the day. The exact hours can vary, but the day ends once all deliveries are completed. You can increase your parcel load as you become more comfortable with the routes.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END - FAQ ================================= -->
+      <!-- =========================================== -->
+
+
       <!-- ============================================-->
       <!-- START - Privacy and Terms ==================-->
-      <section class="bg-transparent">
+      <article class="py-7" id="privacy-terms" class="bg-transparent">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12">
               <h2 class="fw-bold text-dark">Privacy Policy</h2>
               <p>At FlashRoute Delivery, we value your privacy and are committed to protecting your personal information. This Privacy Policy outlines the types of personal data we collect, how we use it, and your rights regarding your data.</p>
-              <h5 class="text-dark">Data We Collect</h5>
+              <h3 class="text-dark">Data We Collect</h3>
               <ul class="text-dark">
                 <li>We collect personal details such as your name, email, and contact number when you fill out forms or create an account.</li>
               </ul>
-              <h5 class="text-dark">How We Use Your Information</h5>
+              <h3 class="text-dark">How We Use Your Information</h3>
               <ul class="text-dark">
                 <li>To provide and improve our services.</li>
                 <li>To communicate with you regarding your inquiries, orders, or account details.</li>
                 <li>To comply with legal obligations and enforce our terms and conditions.</li>
               </ul>
-              <h5 class="text-dark">Your Rights</h5>
+              <h3 class="text-dark">Your Rights</h3>
               <ul class="text-dark">
                 <li>Access, correct, and delete your personal information.</li>
                 <li>Opt-out of communications at any time.</li>
@@ -441,7 +579,7 @@
               </ul>
             </div>
         </div>
-      </section>
+      </article>
       <!-- END - Privacy and Terms ====================-->
       <!-- ============================================-->
 
@@ -449,32 +587,29 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-        <section class="py-0 bg-1000">
-          <div class="container">
-            <div class="row justify-content-md-between justify-content-evenly py-4">
-              <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start d-md-flex align-items-end">
-                <p class="fs--1 my-2 fw-bold text-200">All rights Reserved &copy; Flash Route Delivery, 2024</p>
-              </div>
-              <div class="col-12 col-sm-8 col-md-6">
-                <p class="fs--1 my-2 text-center text-md-end text-200">
-                  Have questions? Contact us at: 
-                  <a href="mailto:flashroutedelivery@gmail.com" class="fw-bold text-primary">flashroutedelivery@gmail.com</a>
-                </p>
-                <p class="fs--1 my-2 text-center text-md-end text-200">
-                  Made with&nbsp;
-                  <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
-                    <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-                  </svg>&nbsp;by&nbsp;<a class="fw-bold text-primary" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
-                </p>
-              </div>
+      <footer class="py-0 bg-1000">
+        <div class="container">
+          <div class="row justify-content-md-between justify-content-evenly py-4">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start d-md-flex align-items-end">
+              <p class="fs--1 my-2 fw-bold text-200">All rights Reserved &copy; Flash Route Delivery, 2024</p>
+            </div>
+            <div class="col-12 col-sm-8 col-md-6">
+              <p class="fs--1 my-2 text-center text-md-end text-200">
+                Have questions? Contact us at: 
+                <a href="mailto:flashroutedelivery@gmail.com" class="fw-bold text-primary">flashroutedelivery@gmail.com</a>
+              </p>
+              <p class="fs--1 my-2 text-center text-md-end text-200">
+                Made with&nbsp;
+                <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
+                  <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                </svg>&nbsp;by&nbsp;<a class="fw-bold text-primary" href="https://themewagon.com/" target="_blank">ThemeWagon </a>
+              </p>
             </div>
           </div>
-        </section>
-        
+        </div>
+      </footer>
       <!-- <section> close ============================-->
       <!-- ============================================-->
-
-
     </main>
     <!-- ===============================================-->
     <!--    End of Main Content-->
@@ -495,21 +630,12 @@
     </div>
 
 
-
-
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
-    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-    <script src="vendors/@popperjs/popper.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="vendors/fontawesome/all.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-    <script src="assets/js/form.js"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome/all.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 
 </html>

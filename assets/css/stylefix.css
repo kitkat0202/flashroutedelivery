@@ -1,0 +1,113 @@
+.preheadline, .statistics  {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-family: Raleway, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.card-body h3, #privacy-terms h3, #faq h3 {
+    font-size: 1.2rem;
+}
+
+#faq h3 {
+    margin-bottom: 0;
+}
+#faq p {
+    padding-left: 17px;
+}
+#faq p span {
+    margin-left: -15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.sub-title {
+    max-width: 430px;
+}
+
+@media (max-width: 767px) {
+    .sub-title {
+        margin: 0 auto;
+    }
+}
+
+.orange-bull {
+    list-style: none;
+    padding: 0;
+}
+
+.orange-bull li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.orange-bull li::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #f15a24;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 991px) {
+
+    /* .navbar-light .navbar-toggler {
+        z-index: 99;
+        filter: invert(1);
+    }
+
+    .navbar-light .navbar-toggler.collapsed {
+        z-index: 99;
+        filter: invert(0);
+    } */
+
+    /* .navbar-collapse {
+        position: absolute;
+        width: 70%;
+        height: 100vh;
+        top: -17px;
+        right: -16px;
+        background: #222132;
+        padding-top: 100px;
+        padding-left: 20px;
+    } */
+
+    .navbar-collapse {
+        background: #222132;
+        padding: 20px;
+        width: 250px;
+        position: absolute;
+        right: 0;
+        top: 60px;
+    }
+
+    .navbar-collapse .btn.btn-primary {
+        display: block;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item:last-of-type {
+        border-bottom: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        color: white;
+        padding: 14px 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #f15a24;
+    }
+}
